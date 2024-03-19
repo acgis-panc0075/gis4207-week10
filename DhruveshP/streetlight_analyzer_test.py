@@ -11,7 +11,7 @@ def test_get_streetlight_count():
 
 def test_get_unique_values():
     expected_values = {"Road1", "Road2", "Road3"}  
-    actual_values = streetlight_analyzer._get_unique_values("E:\acgis\gis4207_prog\Data\Ottawa\Road_Centrelines", "FIELD_NAME")  
+    actual_values = streetlight_analyzer._get_unique_values("E:\acgis\gis4207_prog\Data\Ottawa\Road_Centrelines", "ROAD_NAME")  
     assert expected_values == actual_values
 
 def test_save_streetlights():
