@@ -1,7 +1,7 @@
 import streetlight_analyzer
 
-streetlight_analyzer.streetlight_fc = "path/to/street_light_feature_class"
-streetlight_analyzer.roads_cl_fc = "path/to/roads_center_lines_feature_class"
+streetlight_analyzer.streetlight_fc = "E:\acgis\gis4207_prog\Data\Ottawa\Street_Lights"
+streetlight_analyzer.roads_cl_fc = "E:\acgis\gis4207_prog\Data\Ottawa\Road_Centrelines"
 streetlight_analyzer.road_name_field = "ROAD_NAME_"
 def test_get_streetlight_count():
    
